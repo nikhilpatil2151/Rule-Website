@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: goldenrod;
+
+}
+h1.logo{
+    font-size: 3rem;
+    font-weight: thin;
+    font-family: 'Tiro Bangla', serif;
+    padding: .5rem;
+    padding-left: 3rem;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-right: 5rem;
+    align-items: center;
+    list-style-type: none;
+}
+
+.links a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all 500ms ease-in-out;
+}
+
+.links a:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+.arena{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5rem;
+    gap: 4rem;
+}
+.card{
+    background-color: lightgray;
+    padding: 3rem;
+    height: 30vh;
+    border-radius: 2rem;
+}
+.title{
+    font-size: xx-large;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+.txt{
+
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.form{
+
+    padding: 2rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+label{
+    font-size: x-large;
+
+}
+.btn{
+    padding: .5rem 3rem;
+    font-size: larger;
+    background-color: black;
+    color: goldenrod;
+    font-weight: bolder;
+    border: none;
+    border-radius: 1rem;
+    transition: all 400ms ease-in-out;
+}
+
+.btn:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+input[type=password],input[type=text],#pwd{
+    padding: .5rem 1rem;
+    font-size: 1.1rem;
+}
+
+.pwd  i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.main-abt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 6rem 0rem;
+}
+
+.card-abt{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: all 500ms ease-in-out;
+}
+
+.c1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/ita.jpg");
+
+    /* Set a specific height */
+    height: 50vh;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.c2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/itachi.jpg");
+
+    /* Set a specific height */
+    height: 50vh;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card-abt:hover{
+    /* scale: 1.1; */
+    transform: scale(1.1);
+}
+
+
+.delbtn{
+
+    padding: .5rem 3rem;
+    font-size: larger;
+    background-color: black;
+    color: goldenrod;
+    font-weight: bolder;
+    border: none;
+    border-radius: 1rem;
+    transition: all 400ms ease-in-out;
+    margin-left: 55rem;
+
+
+}
